@@ -1,0 +1,129 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	color:#0ab4b4;
+	overflow-x: hidden;
+  background-color: #12161d;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+/* 			Main Page 		*/
+/*.header{
+  background-color: #12161d;
+}*/
+.news{
+  display: flex;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(18, 22, 29, 0.86);
+}
+.h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.h3{
+  padding-left: 2%;
+  padding-top: 5%;
+}
+.img-fluid{
+  background-color: #0ab4b4;
+  border: 1px outset #0ab4b4;
+  padding: .25rem;
+  border-radius: 3.25rem;
+  max-width: 100%;
+  height: auto;
+}
+.im{
+  padding-right: 4%;
+}
+.news-text{
+  padding: 2%;
+  padding-right: 5%;
+}
+.date{
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+/*      Main Page     */
+
+
+
+
+/*      footer     */
+footer{
+  background-color: rgb(18, 22, 29);
+}
+/*      footer     */
+
+
+
+
+/* media queries */
+@media (min-width: 50px) and (max-width: 442px) {
+  /* стили для орехоеолов */
+ 
+}
+@media (min-width: 442px) and (max-width: 767px) {
+  /* стили для xs-устройств */
+ 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* стили для sm-устройств */
+  
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  /* стили для md-устройств */
+  
+}
+@media (min-width: 1200px) {
+  /* стили для lg-устройств */
+ 
+}
+
+
+/*Anmation*/
+.animated {
+  animation-duration: 1.5s;
+  /*animation-fill-mode: both; с этим свойством меню остаеться фиксированным на определенном месте
+  а с выключенным оно фиксируеться на экране и с прокруткой остаеться справа постоянно пока не закроешь */
+}
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.slideInDown {
+  animation-name: slideInDown;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+}
+/*    Anmation     */
+.cbalink {
+  display: none;
+}
